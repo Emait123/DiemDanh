@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TheoDoiQuaTrinhHoc">
         <activity
+            android:name=".AddSubjectActivity"
+            android:exported="false" />
+        <activity
             android:name=".SubjectListActivity"
             android:exported="false" />
         <activity
