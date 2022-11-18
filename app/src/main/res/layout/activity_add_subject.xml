@@ -10,53 +10,62 @@
         android:id="@+id/subjectName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:hint="Tên môn"
         app:layout_constraintBottom_toTopOf="@id/subjectStart"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="10dp"
-        android:hint="Tên môn"
-        ></EditText>
+        app:layout_constraintTop_toTopOf="parent"></EditText>
 
     <TextView
         android:id="@+id/subjectStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/subjectName"
-        app:layout_constraintBottom_toBottomOf="@id/addCalendar"
+        android:hint="Ngày bắt đầu"
+        app:layout_constraintBottom_toTopOf="@id/addCalendar"
+        app:layout_constraintRight_toLeftOf="@id/guideline2"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@id/subjectEnd"
-        android:hint="Ngày bắt đầu"></TextView>
+        app:layout_constraintTop_toBottomOf="@id/subjectName"
+        android:onClick="setStartDate"></TextView>
 
     <TextView
         android:id="@+id/subjectEnd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:hint="Ngày kết thúc"
+        app:layout_constraintBottom_toTopOf="@id/addCalendar"
         app:layout_constraintTop_toBottomOf="@id/subjectName"
-        app:layout_constraintBottom_toBottomOf="@id/addCalendar"
-        app:layout_constraintLeft_toRightOf="@id/subjectStart"
-        app:layout_constraintRight_toRightOf="parent"
-        android:hint="Ngày kết thúc"></TextView>
+        app:layout_constraintLeft_toRightOf="@id/guideline2"
+        app:layout_constraintRight_toRightOf="parent"></TextView>
 
     <CalendarView
         android:id="@+id/addCalendar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/subjectStart"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"></CalendarView>
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subjectStart"></CalendarView>
 
     <Button
         android:id="@+id/addButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/addCalendar"
+        android:text="Thêm môn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:text="Thêm môn"></Button>
+        app:layout_constraintTop_toBottomOf="@id/addCalendar"></Button>
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="205dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
