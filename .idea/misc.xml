@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidProject/DiemDanh/app/src/main/res/layout/activity_add_subject.xml" value="0.3333333333333333" />
-        <entry key="..\:/AndroidProject/DiemDanh/app/src/main/res/layout/activity_main.xml" value="0.18904109589041096" />
+        <entry key="..\:/AndroidProject/DiemDanh/app/src/main/res/layout/activity_add_subject.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/DiemDanh/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/AndroidProject/DiemDanh/app/src/main/res/layout/activity_student_subject.xml" value="0.1796875" />
-        <entry key="..\:/AndroidProject/DiemDanh/app/src/main/res/layout/activity_student_subject_list.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/DiemDanh/app/src/main/res/layout/activity_student_subject_list.xml" value="0.18" />
         <entry key="..\:/AndroidProject/DiemDanh/app/src/main/res/layout/activity_subject_list.xml" value="0.3378623188405797" />
+        <entry key="..\:/AndroidProject/DiemDanh/app/src/main/res/layout/activity_teacher_subject.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/DiemDanh/app/src/main/res/layout/activity_teacher_subject_list.xml" value="0.20260416666666667" />
         <entry key="..\:/AndroidProject/DiemDanh/app/src/main/res/layout/custom_list.xml" value="0.1796875" />
       </map>
     </option>

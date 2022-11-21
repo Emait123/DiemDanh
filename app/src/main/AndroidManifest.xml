@@ -10,26 +10,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TheoDoiQuaTrinhHoc">
         <activity
+            android:name=".TeacherSubjectActivity"
+            android:label="Điểm danh"
+            android:parentActivityName=".TeacherSubjectListActivity"
+            android:exported="false" />
+        <activity
             android:name=".StudentSubjectActivity"
+            android:label="Điểm danh"
             android:exported="false"
-            android:parentActivityName=".StudentSubjectListActivity"/>
+            android:parentActivityName=".StudentSubjectListActivity" />
         <activity
             android:name=".StudentSubjectListActivity"
-            android:label="Danh sách môn của Học sinh"
             android:exported="false"
-            android:parentActivityName=".MainActivity"/>
+            android:label="Danh sách môn"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".TeacherSubjectListActivity"
-            android:label="Danh sách môn của giáo viên"
             android:exported="false"
-            android:parentActivityName=".MainActivity"/>
+            android:label="Danh sách môn"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".AddSubjectActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:label="Đăng nhập"
-            android:exported="true">
+            android:exported="true"
+            android:label="Đăng nhập">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

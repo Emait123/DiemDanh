@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Theo Doi Qua Trinh Hoc</string>
+    <string name="login_btn">Đăng nhập</string>
+    <string name="login_textOn">Giáo viên</string>
+    <string name="login_textOff">Học sinh</string>
+    <string name="code_prompt">Mã điểm danh buổi học</string>
+    <string name="confirm_code">Điểm danh</string>
+    <string name="set_code">Đặt mã điểm danh</string>
+    <string name="lesson_prompt">Xin hãy chọn một buổi học</string>
 </resources>
